@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustResize"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/topic_txt1"
+        >
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@null"
+            android:src="@drawable/ic_baseline_arrow_back"
+            android:layout_margin="15dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/topic_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/topic_1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/sen_bold"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appbar"
+        app:layout_constraintBottom_toTopOf="@+id/topic_txt2"/>
+
+    <TextView
+        android:id="@+id/topic_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/topic_2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/sen_bold"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topic_txt1" />
+
+
+    <EditText
+        android:id="@+id/edit_txt_person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/edit_hint"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/sen_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topic_txt2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/goto_home_btn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/gotohome"
+        android:textAllCaps="false"
+        android:textColor="@color/common_google_signin_btn_text_light"
+        android:textSize="25sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_txt_person_name"
+        app:layout_constraintVertical_bias="0.964" />
+</androidx.constraintlayout.widget.ConstraintLayout>

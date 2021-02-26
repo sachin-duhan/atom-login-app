@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Atom App</string>
+    <string name="googlelogin">Continue with Google</string>
+    <string name="guest_login">Continue as Guest</string>
+    <string name="slogan_1">Make meditation a</string>
+    <string name="slogan_2">habit you love</string>
+    <string name="privacy_policy">By creating an account you agree to our Term of Service Privacy Policy</string>
+    <string name="topic_1">Hi, what do your</string>
+    <string name="topic_2">friends call you?</string>
+    <string name="edit_hint">Enter Name</string>
+    <string name="gotohome">Continue</string>
+    <string name="slogan3">A more mindful you</string>
+    <string name="slogan4">building your meditation experience</string>
+</resources>
