@@ -1,4 +1,4 @@
-package com.example.atom_task;
+package com.example.atomappsk;
 
 import org.junit.Test;
 

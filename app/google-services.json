@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:394560657395:android:b90117dd606a29e5d4a486",
         "android_client_info": {
-          "package_name": "com.example.atom_task"
+          "package_name": "com.example.atomappsk"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "394560657395-ms9mjhjrdi2lag6cbtl14qhj36t3hb5v.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.atom_task",
+            "package_name": "com.example.atomappsk",
             "certificate_hash": "5ba35630ce8834556339127395b8ea85995b4156"
           }
         },

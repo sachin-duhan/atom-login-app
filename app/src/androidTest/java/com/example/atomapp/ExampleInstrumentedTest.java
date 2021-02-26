@@ -1,4 +1,4 @@
-package com.example.atom_task;
+package com.example.atomappsk;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.atom_task", appContext.getPackageName());
+        assertEquals("com.example.atomappsk", appContext.getPackageName());
     }
 }

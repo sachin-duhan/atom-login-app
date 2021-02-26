@@ -6,7 +6,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.example.atom_task"
+        applicationId "com.example.atomappsk"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 2

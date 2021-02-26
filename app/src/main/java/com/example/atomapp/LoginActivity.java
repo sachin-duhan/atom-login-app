@@ -1,4 +1,4 @@
-package com.example.atom_task;
+package com.example.atomapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
